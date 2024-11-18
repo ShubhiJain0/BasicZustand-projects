@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# Zustand Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains two projects built using **React**, **TypeScript**, and **Zustand** for state management. Both projects demonstrate the power and simplicity of Zustand in managing application state effectively.
 
-Currently, two official plugins are available:
+## Projects Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. **Recipe Book App**
+A simple recipe book app that allows users to:
+- Search for recipes by name.
+- View a list of recipes with ingredients and instructions.
 
-## Expanding the ESLint configuration
+### 2. **Expense Tracker**
+A minimalistic expense tracker that lets users:
+- Add expenses with details like amount and description.
+- Categorize expenses and view a summary.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Recipe Book App
+- **Search Functionality**: Search recipes by name using a dynamic search bar.
+- **Recipe Details**: View ingredients and instructions for each recipe.
+- **Responsive Design**: Ensures usability on any device.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Expense Tracker
+- **Add Expense**: Add expense entries with descriptions, amounts, and categories.
+- **Summary View**: View total expenses and categorized breakdowns.
+- **Real-Time Updates**: Reflects changes immediately using Zustand's state management.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Technologies Used
+
+- **React**: For building the UI.
+- **TypeScript**: To add static typing and ensure type safety.
+- **Zustand**: Lightweight and fast state management solution.
+- **CSS**: For custom styling and layouts.
+- **Tailwind CSS**: Utility-first framework for rapid UI development (optional for styling).
+
