@@ -1,4 +1,4 @@
-# Zustand Projects
+# Basic Zustand Projects
 
 This repository contains two projects built using **React**, **TypeScript**, and **Zustand** for state management. Both projects demonstrate the power and simplicity of Zustand in managing application state effectively.
 
