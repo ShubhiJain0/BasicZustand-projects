@@ -37,4 +37,9 @@ A minimalistic expense tracker that lets users:
 - **Zustand**: Lightweight and fast state management solution.
 - **CSS**: For custom styling and layouts.
 - **Tailwind CSS**: Utility-first framework for rapid UI development (optional for styling).
+---
+## Demonstration
+
+
+https://github.com/user-attachments/assets/b56423f9-f3ab-4192-aaa7-3efe46257b29
 
